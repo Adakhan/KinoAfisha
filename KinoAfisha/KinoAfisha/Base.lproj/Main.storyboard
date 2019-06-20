@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="puf-wo-6Rb" style="IBUITableViewCellStyleDefault" id="tK3-MS-jVR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="puf-wo-6Rb" style="IBUITableViewCellStyleDefault" id="tK3-MS-jVR">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tK3-MS-jVR" id="9M3-My-rz5">
@@ -45,7 +45,7 @@
                             <outlet property="delegate" destination="Fzb-qw-Gm9" id="MQr-lb-Eob"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Фильмы" prompt="КАТАЛОГ 🔍" id="fEo-o2-myK">
+                    <navigationItem key="navigationItem" title="Фильмы" id="fEo-o2-myK">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="vEA-np-EXV"/>
                     </navigationItem>
                     <connections>

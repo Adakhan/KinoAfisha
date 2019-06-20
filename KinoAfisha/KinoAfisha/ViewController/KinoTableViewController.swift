@@ -20,32 +20,25 @@ class KinoTableViewController: UITableViewController {
     @IBOutlet weak var posterImageView: UIImageView!
     
     
-    var kinoName = String()
-    var country = String()
-    
-    var date = String()
-    var rating = String()
-    
-    var ageLimit = String()
-    var poster = String()
+    var movie = Result()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        kinoNameLabel.text = kinoName
-        countryLabel.text = country
+        kinoNameLabel.text = movie.name
+        countryLabel.text = movie.countries
         
-        dateLabel.text = dateLabel.text! + date
-        ratingLabel.text = ratingLabel.text! + rating
+        dateLabel.text = dateLabel.text! + (movie.premier_ua ?? "")
+        ratingLabel.text = ratingLabel.text! + (movie.vote ?? "")
         
-        ageLimitLabel.text = ageLimitLabel.text! + ageLimit
+        ageLimitLabel.text = ageLimitLabel.text! + (movie.age_limit ?? "0")
         posterImageView.image = getImageFromURL()
     }
     
     func getImageFromURL() -> UIImage {
         let urlString = ServerManager.shared.mainUrl
-        let imageUrlString = "\(urlString)\(poster)"
+        let imageUrlString = "\(urlString)\(movie.image ?? "")"
         
         let imageUrl = URL(string: imageUrlString)!
         let imageData = try! Data(contentsOf: imageUrl)

@@ -16,7 +16,7 @@ class ServerManager {
     let mainUrl = "https://kinoafisha.ua"
     private let jsonUrl = "/ajax/kinoafisha_load"
     
-    func loadKinoAfishas( completion: @escaping (KinoAfishaModel) -> () ) {
+    func loadKinoAfishas(completion: @escaping (KinoAfishaModel) -> () ) {
         
         let jsonUrlString = "\(mainUrl)\(jsonUrl)"
         guard let url = URL(string: jsonUrlString) else { return }

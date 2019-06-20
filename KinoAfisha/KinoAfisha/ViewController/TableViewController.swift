@@ -9,21 +9,12 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
     
-    var filteredList: [Result] = []
+    
     var Afishas: [Result] = []
     var kinoAfishas = KinoAfishaModel()
+    var currentMovie = Result()
     
-    
-    var currentKinoName = String()
-    var currentCountry = String()
-    
-    var currentDate = String()
-    var currentRating = String()
-    
-    var currentAgeLimit = String()
-    var currentPoster = String()
     
     
     override func viewDidLoad() {
@@ -33,15 +24,13 @@ class TableViewController: UITableViewController {
     
     
     
-    
     func loadData() {
         ServerManager.shared.loadKinoAfishas(completion: updateUI)
     }
     
     func updateUI(information: KinoAfishaModel) {
-        
         kinoAfishas = information
-        self.Afishas = kinoAfishas.result!
+        self.Afishas = information.result!
         self.tableView.reloadData()
     }
     
@@ -55,7 +44,6 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
         return Afishas.count
     }
 
@@ -69,20 +57,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var currentRow = kinoAfishas.result![indexPath.row]
-        
-        currentRating = currentRow.vote!
-        currentKinoName = currentRow.name!
-        
-        currentDate = currentRow.premier_ua!
-        currentCountry = currentRow.countries!
-        
-        if currentRow.age_limit == nil {
-            currentRow.age_limit = "0"
-        }
-        
-        currentAgeLimit = currentRow.age_limit!
-        currentPoster = currentRow.image!
+        currentMovie = kinoAfishas.result![indexPath.row]
         
         performSegue(withIdentifier: "detailedSegue", sender: self)
     }
@@ -92,15 +67,8 @@ class TableViewController: UITableViewController {
         
         if segue.identifier == "detailedSegue" {
             let KinoTableViewController = segue.destination as! KinoTableViewController
+            KinoTableViewController.movie = currentMovie
             
-            KinoTableViewController.ageLimit = currentAgeLimit
-            KinoTableViewController.country = currentCountry
-            
-            KinoTableViewController.date = currentDate
-            KinoTableViewController.kinoName = currentKinoName
-            
-            KinoTableViewController.rating = currentRating
-            KinoTableViewController.poster = currentPoster
         }
     }
     

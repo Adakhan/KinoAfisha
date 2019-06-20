@@ -18,5 +18,6 @@ struct Result: Decodable {
     var vote: String?
     var countries: String?
     var premier_ua: String?
-    var age_limit: String?
+    var age_limit: String!
 }
+
