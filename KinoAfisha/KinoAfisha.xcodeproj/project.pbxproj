@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA2AC3A4422BE42CDCBED63 /* Pods_KinoAfisha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */; };
+		FA1BE9EB22BA2E3B0093BDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */; };
+		FA1BE9F022BA2E3B0093BDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1BE9EE22BA2E3B0093BDBC /* Main.storyboard */; };
+		FA1BE9F222BA2E400093BDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1BE9F122BA2E400093BDBC /* Assets.xcassets */; };
+		FA1BE9F522BA2E400093BDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1BE9F322BA2E400093BDBC /* LaunchScreen.storyboard */; };
+		FA1BE9FE22BA2F040093BDBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BE9FD22BA2F040093BDBC /* Model.swift */; };
+		FA1BEA0122BA2F220093BDBC /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0022BA2F220093BDBC /* ServerManager.swift */; };
+		FA1BEA0422BA4B910093BDBC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0322BA4B910093BDBC /* TableViewController.swift */; };
+		FA1BEA0622BA6BDE0093BDBC /* KinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.debug.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.debug.xcconfig"; sourceTree = "<group>"; };
+		C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinoAfisha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1BE9E722BA2E3B0093BDBC /* KinoAfisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoAfisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1BE9EF22BA2E3B0093BDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1BE9F122BA2E400093BDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1BE9F422BA2E400093BDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1BE9F622BA2E400093BDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1BE9FD22BA2F040093BDBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA1BEA0022BA2F220093BDBC /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		FA1BEA0322BA4B910093BDBC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoTableViewController.swift; sourceTree = "<group>"; };
+		FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.release.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1BE9E422BA2E3B0093BDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2AC3A4422BE42CDCBED63 /* Pods_KinoAfisha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C57C614BD41EBBB604C90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B4D513CB33C7569D084FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */,
+				FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA1BE9DE22BA2E3B0093BDBC = {
+			isa = PBXGroup;
+			children = (
+				FA1BE9E922BA2E3B0093BDBC /* KinoAfisha */,
+				FA1BE9E822BA2E3B0093BDBC /* Products */,
+				58B4D513CB33C7569D084FFD /* Pods */,
+				34C57C614BD41EBBB604C90D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1BE9E822BA2E3B0093BDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BE9E722BA2E3B0093BDBC /* KinoAfisha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1BE9E922BA2E3B0093BDBC /* KinoAfisha */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BEA0222BA2F3D0093BDBC /* ViewController */,
+				FA1BE9FF22BA2F0C0093BDBC /* ServerManager */,
+				FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */,
+				FA1BE9FC22BA2EF40093BDBC /* Model */,
+				FA1BE9EE22BA2E3B0093BDBC /* Main.storyboard */,
+				FA1BE9F122BA2E400093BDBC /* Assets.xcassets */,
+				FA1BE9F322BA2E400093BDBC /* LaunchScreen.storyboard */,
+				FA1BE9F622BA2E400093BDBC /* Info.plist */,
+			);
+			path = KinoAfisha;
+			sourceTree = "<group>";
+		};
+		FA1BE9FC22BA2EF40093BDBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BE9FD22BA2F040093BDBC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA1BE9FF22BA2F0C0093BDBC /* ServerManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BEA0022BA2F220093BDBC /* ServerManager.swift */,
+			);
+			path = ServerManager;
+			sourceTree = "<group>";
+		};
+		FA1BEA0222BA2F3D0093BDBC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BEA0322BA4B910093BDBC /* TableViewController.swift */,
+				FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1BE9E622BA2E3B0093BDBC /* KinoAfisha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1BE9F922BA2E400093BDBC /* Build configuration list for PBXNativeTarget "KinoAfisha" */;
+			buildPhases = (
+				AC0C39EB3C4B24FABD80D640 /* [CP] Check Pods Manifest.lock */,
+				FA1BE9E322BA2E3B0093BDBC /* Sources */,
+				FA1BE9E422BA2E3B0093BDBC /* Frameworks */,
+				FA1BE9E522BA2E3B0093BDBC /* Resources */,
+				50B91C146827B783C97EAE70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinoAfisha;
+			productName = KinoAfisha;
+			productReference = FA1BE9E722BA2E3B0093BDBC /* KinoAfisha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1BE9DF22BA2E3B0093BDBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Adakhan;
+				TargetAttributes = {
+					FA1BE9E622BA2E3B0093BDBC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FA1BE9E222BA2E3B0093BDBC /* Build configuration list for PBXProject "KinoAfisha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1BE9DE22BA2E3B0093BDBC;
+			productRefGroup = FA1BE9E822BA2E3B0093BDBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1BE9E622BA2E3B0093BDBC /* KinoAfisha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1BE9E522BA2E3B0093BDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1BE9F522BA2E400093BDBC /* LaunchScreen.storyboard in Resources */,
+				FA1BE9F222BA2E400093BDBC /* Assets.xcassets in Resources */,
+				FA1BE9F022BA2E3B0093BDBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50B91C146827B783C97EAE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0C39EB3C4B24FABD80D640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KinoAfisha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1BE9E322BA2E3B0093BDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1BEA0622BA6BDE0093BDBC /* KinoTableViewController.swift in Sources */,
+				FA1BEA0122BA2F220093BDBC /* ServerManager.swift in Sources */,
+				FA1BE9FE22BA2F040093BDBC /* Model.swift in Sources */,
+				FA1BE9EB22BA2E3B0093BDBC /* AppDelegate.swift in Sources */,
+				FA1BEA0422BA4B910093BDBC /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA1BE9EE22BA2E3B0093BDBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1BE9EF22BA2E3B0093BDBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1BE9F322BA2E400093BDBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1BE9F422BA2E400093BDBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1BE9F722BA2E400093BDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1BE9F822BA2E400093BDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1BE9FA22BA2E400093BDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CR5W37ZCG;
+				INFOPLIST_FILE = KinoAfisha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinoAfisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1BE9FB22BA2E400093BDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CR5W37ZCG;
+				INFOPLIST_FILE = KinoAfisha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinoAfisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1BE9E222BA2E3B0093BDBC /* Build configuration list for PBXProject "KinoAfisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1BE9F722BA2E400093BDBC /* Debug */,
+				FA1BE9F822BA2E400093BDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1BE9F922BA2E400093BDBC /* Build configuration list for PBXNativeTarget "KinoAfisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1BE9FA22BA2E400093BDBC /* Debug */,
+				FA1BE9FB22BA2E400093BDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1BE9DF22BA2E3B0093BDBC /* Project object */;
+}
