@@ -20,4 +20,3 @@ struct Result: Decodable {
     var premier_ua: String?
     var age_limit: String!
 }
-

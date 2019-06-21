@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEA2AC3A4422BE42CDCBED63 /* Pods_KinoAfisha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */; };
+		34B430105755E416A43BD178 /* Pods_KinoAfisha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A205C425EA186877BE833D /* Pods_KinoAfisha.framework */; };
 		FA1BE9EB22BA2E3B0093BDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */; };
 		FA1BE9F022BA2E3B0093BDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1BE9EE22BA2E3B0093BDBC /* Main.storyboard */; };
 		FA1BE9F222BA2E400093BDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1BE9F122BA2E400093BDBC /* Assets.xcassets */; };
@@ -19,8 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.debug.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.debug.xcconfig"; sourceTree = "<group>"; };
-		C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinoAfisha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		293C874EDCECF755B718BF0A /* Pods-KinoAfisha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.release.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.release.xcconfig"; sourceTree = "<group>"; };
+		31A205C425EA186877BE833D /* Pods_KinoAfisha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinoAfisha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACD090D7A89A4121AB1CD5 /* Pods-KinoAfisha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.debug.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.debug.xcconfig"; sourceTree = "<group>"; };
 		FA1BE9E722BA2E3B0093BDBC /* KinoAfisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoAfisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1BE9EF22BA2E3B0093BDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		FA1BEA0022BA2F220093BDBC /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		FA1BEA0322BA4B910093BDBC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoTableViewController.swift; sourceTree = "<group>"; };
-		FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoAfisha.release.xcconfig"; path = "Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,26 +39,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA2AC3A4422BE42CDCBED63 /* Pods_KinoAfisha.framework in Frameworks */,
+				34B430105755E416A43BD178 /* Pods_KinoAfisha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34C57C614BD41EBBB604C90D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5FF85D0B3274BB5AF4184FB /* Pods_KinoAfisha.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		58B4D513CB33C7569D084FFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */,
-				FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */,
+				36ACD090D7A89A4121AB1CD5 /* Pods-KinoAfisha.debug.xcconfig */,
+				293C874EDCECF755B718BF0A /* Pods-KinoAfisha.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -69,7 +61,7 @@
 				FA1BE9E922BA2E3B0093BDBC /* KinoAfisha */,
 				FA1BE9E822BA2E3B0093BDBC /* Products */,
 				58B4D513CB33C7569D084FFD /* Pods */,
-				34C57C614BD41EBBB604C90D /* Frameworks */,
+				FC33E07537B1CFE9CAE6B059 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,9 +76,9 @@
 		FA1BE9E922BA2E3B0093BDBC /* KinoAfisha */ = {
 			isa = PBXGroup;
 			children = (
+				FA8C2D0722BCF40B004D64B3 /* AppDelegate */,
 				FA1BEA0222BA2F3D0093BDBC /* ViewController */,
 				FA1BE9FF22BA2F0C0093BDBC /* ServerManager */,
-				FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */,
 				FA1BE9FC22BA2EF40093BDBC /* Model */,
 				FA1BE9EE22BA2E3B0093BDBC /* Main.storyboard */,
 				FA1BE9F122BA2E400093BDBC /* Assets.xcassets */,
@@ -121,6 +113,22 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		FA8C2D0722BCF40B004D64B3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BE9EA22BA2E3B0093BDBC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FC33E07537B1CFE9CAE6B059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A205C425EA186877BE833D /* Pods_KinoAfisha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,11 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA1BE9F922BA2E400093BDBC /* Build configuration list for PBXNativeTarget "KinoAfisha" */;
 			buildPhases = (
-				AC0C39EB3C4B24FABD80D640 /* [CP] Check Pods Manifest.lock */,
+				22DEF58E8FE16D98827F1091 /* [CP] Check Pods Manifest.lock */,
 				FA1BE9E322BA2E3B0093BDBC /* Sources */,
 				FA1BE9E422BA2E3B0093BDBC /* Frameworks */,
 				FA1BE9E522BA2E3B0093BDBC /* Resources */,
-				50B91C146827B783C97EAE70 /* [CP] Embed Pods Frameworks */,
+				1A18726D54EEFA5E54999CB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +198,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50B91C146827B783C97EAE70 /* [CP] Embed Pods Frameworks */ = {
+		1A18726D54EEFA5E54999CB0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,7 +215,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KinoAfisha/Pods-KinoAfisha-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC0C39EB3C4B24FABD80D640 /* [CP] Check Pods Manifest.lock */ = {
+		22DEF58E8FE16D98827F1091 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +392,7 @@
 		};
 		FA1BE9FA22BA2E400093BDBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10071D464FB2DD459A6EC47B /* Pods-KinoAfisha.debug.xcconfig */;
+			baseConfigurationReference = 36ACD090D7A89A4121AB1CD5 /* Pods-KinoAfisha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -403,7 +411,7 @@
 		};
 		FA1BE9FB22BA2E400093BDBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE4DCE891D9FE19FE8888248 /* Pods-KinoAfisha.release.xcconfig */;
+			baseConfigurationReference = 293C874EDCECF755B718BF0A /* Pods-KinoAfisha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
