@@ -62,14 +62,14 @@
             <objects>
                 <viewController id="gTK-gE-PST" customClass="ViewController" customModule="KinoAfisha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sQD-ui-ccy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="820"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtr-Xr-wcC">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="820"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzO-SM-LqT">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="820"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fv-TU-RTF">
                                                 <rect key="frame" x="16" y="50" width="343" height="24"/>
@@ -123,7 +123,7 @@
                                             <constraint firstItem="I0R-Jn-eiH" firstAttribute="top" secondItem="9dz-es-QYm" secondAttribute="bottom" constant="50" id="Y3t-4B-EyE"/>
                                             <constraint firstItem="I0R-Jn-eiH" firstAttribute="leading" secondItem="gzO-SM-LqT" secondAttribute="leading" constant="16" id="erm-q8-7X7"/>
                                             <constraint firstAttribute="trailing" secondItem="Si0-NF-f2H" secondAttribute="trailing" constant="16" id="g0L-iu-Cfo"/>
-                                            <constraint firstAttribute="height" constant="900" id="hGG-zc-kDa"/>
+                                            <constraint firstAttribute="height" constant="820" id="hGG-zc-kDa"/>
                                             <constraint firstItem="2fv-TU-RTF" firstAttribute="leading" secondItem="gzO-SM-LqT" secondAttribute="leading" constant="16" id="ibg-4z-R4Y"/>
                                             <constraint firstAttribute="trailing" secondItem="9dz-es-QYm" secondAttribute="trailing" constant="16" id="lsm-UB-5x0"/>
                                             <constraint firstItem="oHx-ob-6li" firstAttribute="top" secondItem="I0R-Jn-eiH" secondAttribute="bottom" constant="50" id="vfE-31-T2p"/>
@@ -150,7 +150,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wiq-Qj-rWm"/>
                     </view>
-                    <size key="freeformSize" width="375" height="900"/>
+                    <size key="freeformSize" width="375" height="820"/>
                     <connections>
                         <outlet property="ageLimitLabel" destination="oHx-ob-6li" id="Ilj-ub-tns"/>
                         <outlet property="dateLabel" destination="9dz-es-QYm" id="s4W-gV-qTS"/>
