@@ -15,7 +15,7 @@
 		FA1BE9FE22BA2F040093BDBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BE9FD22BA2F040093BDBC /* Model.swift */; };
 		FA1BEA0122BA2F220093BDBC /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0022BA2F220093BDBC /* ServerManager.swift */; };
 		FA1BEA0422BA4B910093BDBC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0322BA4B910093BDBC /* TableViewController.swift */; };
-		FA1BEA0622BA6BDE0093BDBC /* KinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */; };
+		FAAAF84D22C0D4E800A8CB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF84C22C0D4E800A8CB15 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		FA1BE9FD22BA2F040093BDBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FA1BEA0022BA2F220093BDBC /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		FA1BEA0322BA4B910093BDBC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoTableViewController.swift; sourceTree = "<group>"; };
+		FAAAF84C22C0D4E800A8CB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FA1BEA0322BA4B910093BDBC /* TableViewController.swift */,
-				FA1BEA0522BA6BDE0093BDBC /* KinoTableViewController.swift */,
+				FAAAF84C22C0D4E800A8CB15 /* ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1BEA0622BA6BDE0093BDBC /* KinoTableViewController.swift in Sources */,
+				FAAAF84D22C0D4E800A8CB15 /* ViewController.swift in Sources */,
 				FA1BEA0122BA2F220093BDBC /* ServerManager.swift in Sources */,
 				FA1BE9FE22BA2F040093BDBC /* Model.swift in Sources */,
 				FA1BE9EB22BA2E3B0093BDBC /* AppDelegate.swift in Sources */,

@@ -43,22 +43,18 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.textLabel!.text = afishas[indexPath.row].name
-        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         currentMovie = afishas[indexPath.row]
-        
         performSegue(withIdentifier: "detailedSegue", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
         if segue.identifier == "detailedSegue" {
-            let kinoTableViewController = segue.destination as! KinoTableViewController
-            kinoTableViewController.movie = currentMovie
-            
+            let movieViewController = segue.destination as! ViewController
+            movieViewController.movie = currentMovie
         }
     }
     
