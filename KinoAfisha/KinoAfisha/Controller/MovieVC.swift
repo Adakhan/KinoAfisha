@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MovieVC: UIViewController {
 
     
     @IBOutlet weak var movieNameLabel: UILabel!
